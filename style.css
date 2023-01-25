@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Add styles here! */
+
+.max-width-wrapper {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  padding: 32px 0px;
+}
+
+.intro-chunk {
+  /* max-width: 350px; */
+  padding: 8px 16px;
+}
+
+.intro-chunk p {
+  max-width: 350px;
+}
+
+strong {
+  color: hsl(160deg, 100%, 30%);
+}
+
+main {
+  background-color: hsl(0deg, 0%, 40%);
+  border-top: solid;
+  border-color: hsl(0deg, 0%, 60%);
+  border-top-width: 8px;
+  padding: 32px 0;
+}
+
+.card {
+  background-color: white;
+  border-bottom: solid;
+  border-color: hsl(0deg, 0%, 60%);
+  border-bottom-width: 8px;
+  padding: 8px 16px;
+}
+
+.indented-heading {
+  background-color: hsl(45deg, 100%, 50%);
+  border-bottom: solid;
+  border-color: hsl(45deg, 100%, 40%);
+  border-bottom-width: 8px;
+  width: fit-content;
+  padding: 16px;
+  padding-left: 32px;
+  margin: 0;
+  margin-left: -32px;
+}
+
+.title {
+  font-size: 1.5rem;
+}
+
+em {
+  all: unset;
+}
